@@ -53,6 +53,7 @@ $ ls//(ls是List directory contents缩写,列出目录内容)
 →(id_rsa.pub id_rsa ..)
 $ cat id_rsa.pub// 将文件内容打印显示(print and concatenate[连锁]files)
 //最后将这段协议口令在GitHub里设置(自行搜索如何设置)
+pbcopy < ~/.ssh/id_rsa.pub可以直接复制公钥
 ```
 
 ```js
